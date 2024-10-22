@@ -1,0 +1,32 @@
+/* src/index.css */
+/* Importação das classes base do Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos globais */
+body {
+  font-family: 'Poppins', sans-serif;  /* Fonte Poppins aplicada globalmente */
+  background-color: #f5f5f5;  /* Cor de fundo cinza claro */
+  color: #2e2e2e;  /* Cor do texto padrão cinza escuro */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;  /* Negrito padrão para títulos */
+}
+
+button {
+  font-family: 'Poppins', sans-serif;  /* Garante que botões usem a fonte Poppins */
+  background-color: #ff6400;  /* Cor laranja para botões */
+  color: #ffffff;  /* Cor branca para o texto dos botões */
+  border-radius: 0.375rem; /* Borda arredondada */
+}
+
+a {
+  color: #4169e1; /* Cor azul royal para links */
+}
+
+input, textarea {
+  font-family: 'Poppins', sans-serif;  /* Garante que inputs usem a fonte Poppins */
+  border: 1px solid #2e2e2e; /* Borda cinza escuro para inputs */
+}

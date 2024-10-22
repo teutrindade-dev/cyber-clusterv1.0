@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "react-native-touch-id": "^4.4.1",
+    "recharts": "^2.13.0"
+  }
+}
